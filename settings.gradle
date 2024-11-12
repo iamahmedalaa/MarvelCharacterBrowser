@@ -1,0 +1,25 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS) // Optional but recommended for consistency
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.name = "MarvelCharacterBrowser"
+include(":app", ":domain",":data" )
+//rootProject.name = "MarvelCharacterBrowser"
+//include ':app'
+//include ':core'
+//include ':data'
+//include ':domain'
+//include ':feature_characterlist'
+//include ':feature_characterdetail'
